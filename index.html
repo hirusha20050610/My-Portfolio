@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio | Hirusha Lahiru</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome 6 (Free) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+
+</head>
+<body>
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">Hirusha &nbsp;Lahiru</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <!-- Left -->
+                <div class="hero-content">
+                    <div class="badge"><i class="fas fa-code"></i> &nbsp;Open to opportunities</div>
+                    <h1>
+                        Hi, I'm <br />
+                        <span class="highlight">Hirusha Lahiru</span>
+                    </h1>
+                    <p>
+                        I'm a passionate developer &amp; problem solver. I love building
+                        digital experiences that are clean, fast, and meaningful.
+                        <br /><br />
+                        <span style="color: var(--text-muted); font-size: 0.95rem;">
+                            <i class="fas fa-quote-left" style="color: var(--accent);"></i>
+                            &nbsp;Turning ideas into code, one commit at a time.
+                        </span>
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn-primary">
+                            <i class="fas fa-paper-plane"></i> Get in Touch
+                        </a>
+                        <a href="#projects" class="btn-secondary">
+                            <i class="fas fa-arrow-right"></i> View Work
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://github.com/hirusha20050610" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/hirusha-lahiru" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="lahirusampath4874@gmai.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter/X">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right: Photo -->
+                <div class="hero-image">
+                    <div class="photo-frame">
+                        <!-- Replace src with your own photo -->
+                        <img
+                        src="WhatsApp Image 2026-07-21 at 17.49.37.jpeg"
+                        alt="My Portfolio Photo"
+                        />
+                        <!-- If you have a real photo, replace the src above -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EDUCATION ========== -->
+    <section id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label"><i class="fas fa-graduation-cap"></i> &nbsp;Education</span>
+                <h2 class="section-title">My Academic Background</h2>
+                <p class="section-sub">The foundation that built my expertise and passion for technology.</p>
+            </div>
+            <div class="edu-grid">
+                <div class="edu-card">
+                    <div class="icon"><i class="fas fa-university"></i></div>
+                    <h3>B.Sc.(Hons) in Data Science</h3>
+                    <p class="institution">Sri Lanka Technology Campus<br>2025 Present</p>
+                    <span class="year">GPA: -- / 4.0</span>
+                </div>
+                <div class="edu-card">
+                    <div class="icon"><i class="fas fa-school"></i></div>
+                    <h3>Education</h3>
+                    <p class="institution">Mahinada Rajapaksha College<br>2016 – 2024</p>
+                    <span class="year">O/L Exam (2022)</span>
+                    <span class="year">A/L Exam (2024)</span>
+                </div>
+                <div class="edu-card">
+                    <div class="icon"><i class="fas fa-certificate"></i></div>
+                    <h3>Data Entry Operator</h3>
+                    <p class="institution">Ranaviru Information & Technology Training Institue</p>
+                    <span class="year">N.V.Q Level 2 Certificate</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label"><i class="fas fa-code"></i> &nbsp;Projects</span>
+                <h2 class="section-title">Things I've Built</h2>
+                <p class="section-sub">A selection of my work — from personal experiments to real-world applications.</p>
+            </div>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-globe"></i></div>
+                    <h3>Portfolio Website</h3>
+                    <p>This very site! A fully responsive personal portfolio built with HTML, CSS, and JavaScript.</p>
+                    <div class="project-tags">
+                        <span>HTML</span><span>CSS</span><span>JS</span>
+                    </div>
+                    <a href="#" class="project-link">Live Demo <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <!-- <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-robot"></i></div>
+                    <h3>AI Chatbot Assistant</h3>
+                    <p>A conversational AI assistant integrated into this portfolio — built with a simple rule-based logic.</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span><span>API</span>
+                    </div>
+                    <a href="#" class="project-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div> -->
+                <!-- <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
+                    <h3>E-Commerce Platform</h3>
+                    <p>Full-stack online store with authentication, product catalog, and payment integration (demo).</p>
+                    <div class="project-tags">
+                        <span>React</span><span>Node</span><span>MongoDB</span>
+                    </div>
+                    <a href="#" class="project-link">Repo <i class="fas fa-arrow-right"></i></a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ACHIEVEMENTS ========== -->
+    <section id="achievements">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label"><i class="fas fa-trophy"></i> &nbsp;Achievements</span>
+                <h2 class="section-title">Awards &amp; Recognition</h2>
+                <p class="section-sub">Milestones that reflect my dedication and growth.</p>
+            </div>
+            <div class="achieve-grid">
+                <!-- <div class="achieve-card">
+                    <div class="achieve-icon"><i class="fas fa-medal"></i></div>
+                    <h4></h4>
+                    <p></p>
+                </div> -->
+                <!-- <div class="achieve-card">
+                    <div class="achieve-icon"><i class="fas fa-certificate"></i></div>
+                    <h4></h4>
+                    <p></p>
+                </div> -->
+                <!-- <div class="achieve-card">
+                    <div class="achieve-icon"><i class="fas fa-star"></i></div>
+                    <h4></h4>
+                    <p></p>
+                </div> -->
+                <!-- <div class="achieve-card">
+                    <div class="achieve-icon"><i class="fas fa-award"></i></div>
+                    <h4></h4>
+                    <p></p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label"><i class="fas fa-paper-plane"></i> &nbsp;Contact</span>
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-sub">I'm always open to new opportunities, collaborations, or just a chat.</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <!-- Left: Info + Links -->
+                <div class="contact-info">
+                    <h3>Reach out directly</h3>
+                    <p>Feel free to message me anytime. I'll get back to you as soon as possible.</p>
+                    <div class="contact-links">
+                        <a href="https://github.com/hirusha20050610" target="_blank">
+                            <i class="fab fa-github"></i> github
+                        </a>
+                        <a href="https://www.linkedin.com/in/hirusha-lahiru" target="_blank">
+                            <i class="fab fa-linkedin-in"></i> linkedin
+                        </a>
+                        <a href="mailto:lahirusampath4874@gmail.com" target="_blank">
+                            <i class="fas fa-envelope"></i>Mail 
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-phone-alt"></i> +94 766635474
+                        </a>
+                    </div>
+
+                    <!-- BONUS: Downloadable CV -->
+                    <div class="cv-download-area">
+                        <div class="cv-text">
+                            <i class="fas fa-file-pdf"></i>
+                            <div>
+                                <h4>Download my CV</h4>
+                                <p>Get a PDF copy of my full resume.</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-primary" style="padding: 10px 28px; font-size: 0.9rem;" id="downloadCV">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right: Form -->
+                <div class="contact-form">
+                    <h4><i class="fas fa-comment-dots" style="color: var(--accent);"></i> &nbsp;Send a Message</h4>
+                    <form id="contactForm">
+                        <input type="text" placeholder="Your Name" required />
+                        <input type="email" placeholder="Your Email" required />
+                        <textarea placeholder="Your Message…" required></textarea>
+                        <button type="submit" class="btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="container">
+            <p>
+                &copy; 2026 <strong>Hirusha Lahiru</strong> &bull; Built with
+                <i class="fas fa-heart" style="color: var(--accent);"></i>
+                &bull; Hosted on <a href="#" target="_blank">GitHub Pages</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- ========== CHATBOT (BONUS) ========== -->
+    <!-- Toggle Button -->
+    <button class="chatbot-toggle" id="chatbotToggle" aria-label="Toggle chatbot">
+        <i class="fas fa-comment-dots"></i>
+    </button>
+
+    <!-- Chatbot Window -->
+    <div class="chatbot-window" id="chatbotWindow">
+        <div class="chatbot-header">
+            <h4><i class="fas fa-robot"></i> &nbsp;AI Assistant</h4>
+            <button class="chatbot-close" id="chatbotClose">&times;</button>
+        </div>
+        <div class="chatbot-messages" id="chatbotMessages">
+            <div class="chat-msg bot">👋 Hi there! I'm your AI assistant. Ask me anything about my skills, experience, or projects!</div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="chatbotInput" placeholder="Type a message…" />
+            <button id="chatbotSend"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div> 
+</body>
+</html>
